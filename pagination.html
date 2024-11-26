@@ -1,0 +1,38 @@
+<html>
+   <head>
+      <style>
+        .anc{
+         display: inline block;
+         padding: 50px;
+         border: 3px double blue;
+         text-align: center;
+
+        }
+        .anc a{
+         text-decoration: none;
+         padding: 30px;
+         border: 1px ridge red;
+         border-radius: 10%;
+         margin: 3px;
+        }
+        .anc a.active{
+         background-color:rgb(91, 149, 238);
+         border-radius: 10%;
+        }
+        .anc a:hover:not(.active){
+         background-color: chartreuse;
+        }
+      
+      </style>
+   </head>
+   <body>
+   <div class="anc">
+      <a href="#">&laquo</a>
+        <a href="#">1 </a>
+        <a href="#" class="active" >2 </a>
+        <a href="#">3 </a>
+        <a href="#">4 </a>
+        <a href="#">&raquo </a>
+      </div>
+   </body>
+</html>
